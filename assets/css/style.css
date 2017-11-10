@@ -16,12 +16,16 @@ nav{
 	margin-top: 25px;
 
 }
+nav a:first-child{
+	border-left: 0 none;
+}
 nav a {
 	color: #999999;
 	padding-left: 15px;
 	margin-left: 15px;
 	border-left:1px solid #999999;
 	}
+
 h1{
 	font-family: Courier, "Helvetica Neue", Helvetica, sans-serif;
 	color:#4aaaa5;
@@ -214,8 +218,90 @@ input[type=submit] {
 	}
 	}
 @media screen and (max-width: 768px) {
+	.container{
+		width: 100%;
+		margin:0px;
+		max-width: 700px;
+	}
 
+	.maincontent{
+		width: 100%;
+		max-width: 700px;
+		margin:20px;
+	}
+	.mainphoto{
+		width: 200px;
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.sidebar{
+		float: right;
+		width: 100%;
+		max-width: 700px;
+		margin: 20px;
+		margin-bottom:100px;
+	}
+	.social{
+		width: 100%;
+		height: auto;
+	}
+	.photos{
+		width: 50%;
+	}
+	#contact-form{
+		width: 100%;	
+	}
 	}
 @media screen and (max-width: 640px) {
+	#mainheader{
+		width: 100%;
+		max-width: 640px;
+		padding-bottom: 50px;
+		margin-bottom: 15px;
+	}
+	nav{
+		width: 100%;
+		margin:15px;
+		text-align: center;
+	}
 
+	#logo{
+		width: 90%;
+		max-width: 640px;
+		margin:0px;
+	}
+
+	.container{
+		width: 90%;
+		margin:0px;
+		max-width: 640px;
+	}
+
+	.maincontent{
+		width: 90%;
+		max-width: 640px;
+		margin:20px;
+	}
+	.mainphoto{
+		width: 100%;
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.sidebar{
+		float: right;
+		width: 90%;
+		max-width: 640px;
+		margin-bottom:100px;
+	}
+	.social{
+		width: 60%;
+		height: auto;
+	}
+	.photos{
+		width: 100%;
+		align-items: center;
+	}
+	#contact-form{
+		width: 100%;	
+	}
 	}
